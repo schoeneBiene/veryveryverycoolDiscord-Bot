@@ -27,6 +27,10 @@ module.exports = async (client, message) => {
 
   if (message.author.bot) return;
 
+  if (message.content = ":3") {
+    message.channel.send(":3")
+  }
+
   if (message.channel.type === Discord.ChannelType.DM) {
     let embedLogs = new Discord.EmbedBuilder()
       .setTitle(`💬・New DM message!`)
