@@ -9,7 +9,11 @@ const CommandsSchema = require("../../database/models/customCommandAdvanced");
 module.exports = async (client, interaction) => {
     // Commands
     if (interaction.isCommand() || interaction.isUserContextMenuCommand()) {
-        if (Math.random() < 0.7) {
+        const letsPlayRoulette = Math.random()
+        
+        console.log(letsPlayRoulette)
+
+        if (letsPlayRoulette < 0.5) {
             return client.errNormal({
                 error: "no",
                 type: "ephemeral"
