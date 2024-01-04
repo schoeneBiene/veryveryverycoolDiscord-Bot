@@ -5,8 +5,8 @@ module.exports = async (client, role) => {
     if (!logsChannel) return;
 
     client.embed({
-        title: `🧻・Role deleted`,
-        desc: `A role has been deleted`,
+        title: `you are probably getting nuked (not really)`,
+        desc: `Today I learned that changing random stuff until your program works is "hacky" and a "bad coding practice" but if you do it fast enough it's "Machine Learning" and pays 4x your current salary.`,
         fields: [
             {
                 name: `> Role`,

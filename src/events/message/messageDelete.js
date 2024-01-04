@@ -14,8 +14,8 @@ module.exports = async (client, messageDeleted) => {
         if (!logsChannel) return;
 
         client.embed({
-            title: `💬・Message deleted`,
-            desc: `A message has been deleted`,
+            title: `literally 1984`,
+            desc: `A SQL statement walks into a bar and sees two tables.It approaches, and asks may I join you?`,
             fields: [
                 {
                     name: `> Author`,

@@ -5,8 +5,8 @@ module.exports = async (client, role, oldColor, newColor) => {
     if (!logsChannel) return;
 
     client.embed({
-        title: `🧻・Role color updated`,
-        desc: `A role has been updated`,
+        title: `new role color just dropped`,
+        desc: `Debugging is like being the detective in a crime movie where you're also the murderer at the same time.`,
         fields: [
             {
                 name: `> Role`,

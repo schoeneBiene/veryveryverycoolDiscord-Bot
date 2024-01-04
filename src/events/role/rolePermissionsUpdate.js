@@ -6,8 +6,8 @@ module.exports = async (client, role, oldPerms, newPerms) => {
     if (!logsChannel) return;
 
     client.embed({
-        title: `🧻・Role permissions updated`,
-        desc: `A role has been updated`,
+        title: `someone just gave everyone admin, probably`,
+        desc: `Java is like Alzheimer's, it starts off slow, but eventually, your memory is gone.`,
         fields: [
             {
                 name: `> Role`,
